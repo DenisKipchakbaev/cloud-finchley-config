@@ -1,4 +1,4 @@
-example.property: "I AM IN LOCAL"
+example.property: "I AM IN LOCAL 123"
 spring.datasource.url: "jdbc:postgresql://localhost:5432/eagle_eye_local"
 spring.datasource.initialization-mode: "always"
 redis.server: "localhost"
