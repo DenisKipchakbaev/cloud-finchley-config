@@ -3,10 +3,10 @@
 #   https://github.com/spring-projects/spring-boot/issues/13042
 spring.cloud.refresh.refreshable: false
 
-hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 5000
-#ribbon:
-#  ConnectTimeout: 10000
-#  ReadTimeout: 10000
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 8000
+ribbon:
+  ConnectTimeout: 2000
+  ReadTimeout: 5000
 
 # Expose all actuator endpoints
 management.endpoints.web.exposure.include: "*"
