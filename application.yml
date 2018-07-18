@@ -11,3 +11,5 @@ hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 5000
 # Expose all actuator endpoints
 management.endpoints.web.exposure.include: "*"
 # management.endpoints.web.exposure.exclude: env,beans
+
+management.endpoint.health.showDetails: when-authorized #show details in actuator/health endpoint
