@@ -8,6 +8,5 @@ spring.datasource.password: "{cipher}4788dfe1ccbe6485934aec2ffeddb06163ea3d616df
 spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
 spring.datasource.initialization-mode: "always"
-spring.cloud.refresh.enabled: false #temporal fix for bug: https://github.com/spring-cloud/spring-cloud-commons/issues/355 , https://github.com/spring-projects/spring-boot/issues/13042
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
 signing.key: "345345fsdfsf5345"
