@@ -4,9 +4,9 @@
 spring.cloud.refresh.refreshable: false
 
 #hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 25000
-#ribbon:
-#  ConnectTimeout: 2000
-#  ReadTimeout: 10000
+ribbon:
+  ConnectTimeout: 2000
+  ReadTimeout: 1000
 
 # Expose all actuator endpoints
 management.endpoints.web.exposure.include: "*"
