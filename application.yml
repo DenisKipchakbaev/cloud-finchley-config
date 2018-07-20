@@ -12,4 +12,4 @@ ribbon:
 management.endpoints.web.exposure.include: "*" # For production you should carefully choose which endpoints to expose
 # management.endpoints.web.exposure.exclude: env,beans
 
-management.endpoint.health.showDetails: when-authorized #show details in actuator/health endpoint
+management.endpoint.health.showDetails: always #show details in actuator/health endpoint
