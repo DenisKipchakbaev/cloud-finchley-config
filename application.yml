@@ -11,5 +11,6 @@ ribbon:
 # Expose all actuator endpoints
 management.endpoints.web.exposure.include: "*" # For production you should carefully choose which endpoints to expose
 # management.endpoints.web.exposure.exclude: env,beans
+management.endpoints.jmx.exposure.include: "*"
 
 management.endpoint.health.showDetails: always #show details in actuator/health endpoint
