@@ -23,3 +23,7 @@ management:
         
 # management.endpoints.web.exposure.exclude: env,beans
 # management.endpoints.jmx.exposure.include: "*"
+
+
+hystrix:
+  shareSecurityContext: true # Fix for: Error creating bean with name 'scopedTarget.oauth2ClientContext': Scope 'request' is not active for the current thread
