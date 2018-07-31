@@ -1,2 +1,1 @@
 spring.datasource.url: "jdbc:postgresql://localhost:5432/eagle_eye_local"
-spring.datasource.initialization-mode: "always"
