@@ -8,10 +8,10 @@ spring:
 
 #hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 25000
 
-# Commented out to test timeot behaviour on Finchley.SR2 release
-#ribbon:
-#  ConnectTimeout: 1000
-#  ReadTimeout: 2000
+# SocketTimeoutException in config server on connecting to GitHub when commented out
+ribbon:
+  ConnectTimeout: 3000
+  ReadTimeout: 6000
 
 # Expose all actuator endpoints
 management:
