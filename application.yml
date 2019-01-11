@@ -8,7 +8,6 @@ spring:
 
 #hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 25000
 
-# SocketTimeoutException in config server on connecting to GitHub when commented out
 ribbon:
   ConnectTimeout: 3000
   ReadTimeout: 6000
