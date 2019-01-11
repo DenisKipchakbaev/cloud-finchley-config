@@ -7,9 +7,11 @@ spring:
       refreshable: false
 
 #hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 25000
-ribbon:
-  ConnectTimeout: 1000
-  ReadTimeout: 2000
+
+# Commented out to test timeot behaviour on Finchley.SR2 release
+#ribbon:
+#  ConnectTimeout: 1000
+#  ReadTimeout: 2000
 
 # Expose all actuator endpoints
 management:
