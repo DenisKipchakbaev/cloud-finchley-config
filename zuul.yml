@@ -11,8 +11,8 @@ zuul.prefix:  /api
 zuul.sensitiveHeaders: Cookie,Set-Cookie
 zuul.debug.request: true
 
-# Commented out to test hystrix timeouts in slow environment
-#hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
+# Set to 20 sec to test hystrix timeouts in slow environment
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 20000
 
 #hystrix.command.licensingservice.execution.isolation.thread.timeoutInMilliseconds: 2
 #licensingservice.ribbon.ReadTimeout: 2
