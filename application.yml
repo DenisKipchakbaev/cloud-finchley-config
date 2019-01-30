@@ -1,10 +1,10 @@
 # temporary fix for bug: 
 #   https://github.com/spring-cloud/spring-cloud-commons/issues/355 ,
 #   https://github.com/spring-projects/spring-boot/issues/13042
-spring:
-  cloud:
-    refresh:
-      refreshable: false
+#spring:
+#  cloud:
+#    refresh:
+#      refreshable: false
 
 #hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 25000
 
